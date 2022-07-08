@@ -2,7 +2,7 @@ const checkboxElem = document.querySelector('.task-status');
 
 function checked() {
     if (checkboxElem.checked) {
-        console.log(false);
-    } else console.log(true);
+        console.log(true);
+    } else console.log(false);
 }
 checkboxElem.addEventListener('change', checked);
